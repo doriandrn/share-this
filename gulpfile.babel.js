@@ -59,6 +59,11 @@ function buildJsEntry(file, name, standalone, output) {
                 presets: [
                     [ "@babel/env", {
                         modules: false,
+                        "targets": {
+                            "ie": "11",
+                            "safari": "7",
+                            "node": true
+                        },
                         exclude: [ "@babel/plugin-transform-typeof-symbol" ]
                     }]
                 ],
