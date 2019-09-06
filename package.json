@@ -11,7 +11,6 @@
     "text"
   ],
   "main": "dist/share-this.js",
-  "module": "src/core.js",
   "author": {
     "name": "Massimo Artizzu",
     "email": "maxart.x@gmail.com"
